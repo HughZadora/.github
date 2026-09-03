@@ -1,0 +1,36 @@
+name: Feature request
+description: Propose a new capability or meaningful improvement.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Describe the underlying need rather than only the proposed implementation.
+      placeholder: What problem should be solved, and for whom?
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the behavior or result you would consider successful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe existing approaches, workarounds, upstream solutions, or alternatives you considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add examples, references, constraints, screenshots, or related issues when useful.
+    validations:
+      required: false
