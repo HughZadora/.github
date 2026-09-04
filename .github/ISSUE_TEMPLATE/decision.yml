@@ -1,0 +1,39 @@
+name: Decision record
+description: Record a material product, architecture, security, data, or delivery decision.
+title: "[Decision]: "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What goal, problem, or constraint requires a decision?
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: The Agent should state the recommended decision and why.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and trade-offs
+      description: List credible alternatives and their main trade-offs.
+    validations:
+      required: true
+  - type: textarea
+    id: approval
+    attributes:
+      label: Approval needed
+      description: State exactly what requires user or owner approval.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link relevant tests, documentation, benchmarks, or external guidance.
+    validations:
+      required: false
