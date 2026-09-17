@@ -28,7 +28,7 @@ set -eu
 #@ .markdownlint.yaml all .markdownlint.yaml 00f539730b6ac4bf96c1aa9384ebaaedae188a9f2b4d4362f643594bfc79940b
 #@ .github/dependabot.yml all .github/dependabot.yml 9804ed1afdf6b83d6284bf86e24804121fedbd19000ac33dd332960618d00cb7
 #@ STANDARD.md all STANDARD.md 3fc1dc9fa0cd3df7334ed66ead9931ae3b7d8a2c25a91e37f220f586a0b4a6b2
-#@ .github/workflows/repository-baseline.yml all .github/workflows/repository-baseline.yml 3c088126a0692ff19e34e1966132601688207241a10767abebd34dfbd63fd1f2
+#@ .github/workflows/repository-baseline.yml all .github/workflows/repository-baseline.yml e7fcebf018c6e7d942e86c36aa660f0762d4ad6a82b29528760b2a084aeb1c07
 #@ .prettierrc.json application .prettierrc.json d1dc28d81d35d108645c8d83fbf2bb4a9a840265bce8fdb01100e1fe62abeaaf
 #@ .prettierignore application .prettierignore ece177189922a7547f6111a9698b2ce30b8e92dd34bff6797bf5054a158bfcf5
 #@ ruff.toml model ruff.toml cc4683bea34a7e600e2f60720e2f6b749a3945943b7ec0fb51ad806d8a7eb3c4

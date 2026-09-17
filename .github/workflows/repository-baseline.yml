@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
     branches: [main]
+  # Kept so a repository can call this workflow locally from another workflow.
+  # Cross-repository reuse is not used: the canon repository is private, and a
+  # public repository cannot call a private repository's reusable workflow.
+  workflow_call:
 
 permissions:
   contents: read
