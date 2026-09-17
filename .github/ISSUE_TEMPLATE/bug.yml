@@ -5,13 +5,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a problem. Please provide enough information to reproduce and understand it.
+        Thanks for reporting a problem. Please provide enough information to
+        reproduce and understand it.
 
   - type: textarea
     id: problem
     attributes:
       label: Problem
-      description: What happened, and what did you expect to happen?
+      description: >-
+        What happened, and what did you expect to happen?
       placeholder: Describe the observed and expected behavior.
     validations:
       required: true
@@ -20,7 +22,8 @@ body:
     id: reproduce
     attributes:
       label: Steps to reproduce
-      description: Provide the smallest reliable sequence that reproduces the problem.
+      description: >-
+        Provide the smallest reliable sequence that reproduces the problem.
       placeholder: |
         1. ...
         2. ...
@@ -32,7 +35,9 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Include relevant operating system, runtime, version, browser, deployment, or configuration information.
+      description: >-
+        Include relevant operating system, runtime, version, browser,
+        deployment, or configuration information.
       placeholder: Add only details relevant to the problem.
     validations:
       required: false
@@ -41,7 +46,9 @@ body:
     id: evidence
     attributes:
       label: Additional evidence
-      description: Add logs, screenshots, links, or other useful context. Remove secrets and sensitive information.
+      description: >-
+        Add logs, screenshots, links, or other useful context. Remove secrets
+        and sensitive information.
     validations:
       required: false
 
@@ -52,5 +59,7 @@ body:
       options:
         - label: I searched the existing issues for the same problem.
           required: true
-        - label: I removed secrets, credentials, and sensitive information from the report.
+        - label: >-
+            I removed secrets, credentials, and sensitive information from the
+            report.
           required: true
