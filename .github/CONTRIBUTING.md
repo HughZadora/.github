@@ -1,11 +1,14 @@
 # Contributing
 
-Before making changes:
+Before making changes to a repository owned by this account:
 
-1. Read the repository README and local contribution guidance.
-2. Keep changes focused and minimal.
-3. Follow the repository's existing conventions.
-4. Update tests and documentation when behavior changes.
-5. Ensure relevant checks pass before opening a pull request.
+1. Read that repository's README and local `AGENTS.md` or contribution guidance.
+2. Treat the target repository as its own source of truth.
+3. Keep changes focused and minimal.
+4. Follow the repository's existing ecosystem conventions and tooling.
+5. Update tests and documentation when behavior changes.
+6. Run the validation defined by that repository before opening a pull request.
 
-Repository-specific instructions take precedence over this default guidance.
+Repository-specific instructions always take precedence over this default.
+This account-level file intentionally does not define architecture, toolchains,
+CI, formatting, testing, or release policy for other repositories.
