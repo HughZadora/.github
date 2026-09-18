@@ -6,7 +6,9 @@ body:
     id: problem
     attributes:
       label: Problem or opportunity
-      description: Describe the underlying need rather than only the proposed implementation.
+      description: >-
+        Describe the underlying need rather than only the proposed
+        implementation.
       placeholder: What problem should be solved, and for whom?
     validations:
       required: true
@@ -15,7 +17,8 @@ body:
     id: outcome
     attributes:
       label: Desired outcome
-      description: Describe the behavior or result you would consider successful.
+      description: >-
+        Describe the behavior or result you would consider successful.
     validations:
       required: true
 
@@ -23,7 +26,9 @@ body:
     id: alternatives
     attributes:
       label: Alternatives considered
-      description: Describe existing approaches, workarounds, upstream solutions, or alternatives you considered.
+      description: >-
+        Describe existing approaches, workarounds, upstream solutions, or
+        alternatives you considered.
     validations:
       required: false
 
@@ -31,6 +36,8 @@ body:
     id: context
     attributes:
       label: Additional context
-      description: Add examples, references, constraints, screenshots, or related issues when useful.
+      description: >-
+        Add examples, references, constraints, screenshots, or related issues
+        when useful.
     validations:
       required: false

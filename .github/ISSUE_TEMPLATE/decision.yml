@@ -1,5 +1,6 @@
 name: Decision record
-description: Record a material product, architecture, security, data, or delivery decision.
+description: >-
+  Record a material product, architecture, security, data, or delivery decision.
 title: "[Decision]: "
 body:
   - type: textarea
@@ -34,6 +35,7 @@ body:
     id: evidence
     attributes:
       label: Evidence
-      description: Link relevant tests, documentation, benchmarks, or external guidance.
+      description: >-
+        Link relevant tests, documentation, benchmarks, or external guidance.
     validations:
       required: false
