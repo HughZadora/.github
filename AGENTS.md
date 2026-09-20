@@ -2,23 +2,27 @@
 
 ## Scope
 
-This file applies to the entire repository.
+This file applies only to this account-level `.github` repository.
 
-- Name: .github
-- Purpose: Account-level community health files for every repository
-- Tier: meta
+## Purpose
+
+Maintain GitHub-native community health defaults shared across repositories, such as contribution,
+issue, pull-request, security, and support guidance.
 
 ## Working rules
 
-- Read `README.md` and `STANDARD.md` before making non-trivial changes.
-- Follow the repository standard and existing tooling before adding
-  dependencies or custom infrastructure.
-- Verify a reported problem before fixing it, and prefer the smallest systemic
-  fix that addresses the root cause.
-- Keep changes focused on the requested outcome and avoid unrelated refactoring.
+- Keep this repository narrow and GitHub-native.
+- Do not use it as a global engineering canon, repository schema, bootstrap framework, or shared
+  validation implementation.
+- Do not add project-wide architecture, toolchain, lifecycle, package-manager, language, or release
+  rules here; those belong to the relevant project.
+- Preserve repository-specific ownership: project manifests, lockfiles, tests, CI, and local
+  instructions remain authoritative for implementation facts.
+- Keep changes focused on account-level community health behavior.
 - Never commit secrets, credentials, or sensitive local configuration.
-- Never edit a shared file locally; change the canon and roll it out.
 
 ## Validation
 
-Run `./scripts/repository-check` before claiming completion.
+There is no dedicated build or repository-wide validation command. Validate only the GitHub community
+files changed by the task using their native syntax and GitHub behavior; do not introduce a toolchain
+solely to manufacture a generic gate for this repository.
