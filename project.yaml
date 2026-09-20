@@ -1,6 +1,0 @@
-version: 1
-name: .github
-type: meta
-purpose: Account-level community health files for every repository
-status: active
-validation: ./scripts/repository-check
